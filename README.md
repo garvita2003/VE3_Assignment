@@ -1,11 +1,10 @@
 # VE3_Assignment - MERN Task Manager Application
-This Website deals with the Task Management System based on Authentication as well as Authorized Users : An Individual can not only create a task for them but also prioritize them to - low, medium and high categories. While creating the task they can even add the title, description,due date, task completed for pending. We can even perform CRUD operation to create a new task, update the task, delete the task, read / view a task created on a particular current date. In this application we have a different navigation over the Pending, Overdue and Completed Tasks separately as well as together. We have a star icon while creating a task we can complete the task by clicking on that star icon. Along with that we also have a feature of Statistical Representation of Users overall task details. 
+This Website deals with the Task Management System based on Authentication as well as Authorized Users : An Individual can not only create a task for them but also prioritize them - low, medium and high categories. While creating a task we can even add the title, description,due date of the task, task completed or pending status. We can even perform CRUD operation to create a new task, update the task, delete the task, read / view a task created on a current date. In this application we can even navigate separately over the Pending, Overdue and Completed Tasks. We have a star icon while creating a task we can complete the task by clicking on that star icon. Along with that we also have a feature of Statistical Representation of Users overall task details. 
 
 
 ## Features
 
 ### User-side features
-
 - Signup
 - Login
 - Logout
@@ -15,7 +14,6 @@ This Website deals with the Task Management System based on Authentication as we
 - Delete tasks
 
 ### Developer-side features
-
 - Toasts for success and error messages
 - Form validations in frontend and backend
 - Fully Responsive Navbar
@@ -38,7 +36,6 @@ This Website deals with the Task Management System based on Authentication as we
 
 
 ## Tools and Technologies
-
 - HTML
 - CSS
 - JavaScript
@@ -52,8 +49,6 @@ This Website deals with the Task Management System based on Authentication as we
 
 
 ## Dependencies
-
-Following are the major dependencies of the project:
 
 ### Backend:
 - npm init
@@ -71,8 +66,7 @@ Following are the major dependencies of the project:
 
 
 ## Prerequisites
-
-- Node.js must be installed on the system.
+- Node.js must be installed on the system of version 18.17.0 or above.
 - You should have a MongoDB database.
 - You should have a code editor (preferred: VS Code)
 
@@ -113,8 +107,7 @@ Following are the major dependencies of the project:
    npm run install-all
    ```
 
-2. Create a file named ".env" inside the backend folder. Add data from .env.example file and substitute your credentials there.
-   Add these variables in your .env file
+2. Create a file named ".env" inside the backend folder. Add data from .env.example file and substitute your credentials there.Add these variables in your .env file
 - MONGO_URI=your_mongo_uri
 - JWT_SECRET=secret or anything random
 - CLIENT_URL=http://localhost:3000
